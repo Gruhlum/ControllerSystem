@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85de92eea83fc2349af05b13146fa14f, type: 3}
+  m_Name: PlayStation
+  m_EditorClassIdentifier: 
+  spriteBindings:
+  - inputBinding: buttonNorth
+    sprite: {fileID: 21300000, guid: 6af63839a7e7a3448ae9d978302bbe7e, type: 3}
+  - inputBinding: buttonWest
+    sprite: {fileID: 21300000, guid: 0c31eb9d660312748bdde204c23e1077, type: 3}
+  - inputBinding: buttonSouth
+    sprite: {fileID: 21300000, guid: b936bd3ae3372a344802595da372d20c, type: 3}
+  - inputBinding: buttonEast
+    sprite: {fileID: 21300000, guid: f189de2909cec4f49afcba5e34351944, type: 3}
+  - inputBinding: dpad/up
+    sprite: {fileID: 21300000, guid: 700d9c6057979e743ab0b77fd6e50c7c, type: 3}
+  - inputBinding: dpad/left
+    sprite: {fileID: 21300000, guid: 8c864f3ff4046fd47b8713f6c34fd7f9, type: 3}
+  - inputBinding: dpad/down
+    sprite: {fileID: 21300000, guid: 9fe7b1111fc4ba543821e0f95484ce86, type: 3}
+  - inputBinding: dpad/right
+    sprite: {fileID: 21300000, guid: 1d29942210e3241409913cab47169516, type: 3}
+  - inputBinding: leftStick
+    sprite: {fileID: 21300000, guid: e3813f5411608b14698e66ca9b0d6929, type: 3}
+  - inputBinding: rightStick
+    sprite: {fileID: 21300000, guid: 3bb766126860bcc4f8c2fbb845325255, type: 3}
+  - inputBinding: leftStickPress
+    sprite: {fileID: 21300000, guid: 56c39b165a6c3b7449734c47fdb38469, type: 3}
+  - inputBinding: rightStickPress
+    sprite: {fileID: 21300000, guid: eaa75262a4e880c4599bbcf288a99e89, type: 3}
+  - inputBinding: leftTrigger
+    sprite: {fileID: 21300000, guid: 00048468239af3c43a5336eaf7fccffc, type: 3}
+  - inputBinding: rightTrigger
+    sprite: {fileID: 21300000, guid: 7cc96ead22b2a9f419d1eac628ec6fdf, type: 3}
+  - inputBinding: leftShoulder
+    sprite: {fileID: 21300000, guid: 75b657c2cb31a1d48bfa3182cd4cae0e, type: 3}
+  - inputBinding: rightShoulder
+    sprite: {fileID: 21300000, guid: c655217a57d97f5438bcd4b8068ad55b, type: 3}
+  - inputBinding: select
+    sprite: {fileID: 21300000, guid: 450a4fb16c5800f4097559dd9b236b1c, type: 3}
+  - inputBinding: start
+    sprite: {fileID: 21300000, guid: 28b0f581b2989df4099e086611bd221f, type: 3}
